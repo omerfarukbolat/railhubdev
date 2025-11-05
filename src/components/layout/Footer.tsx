@@ -6,9 +6,7 @@ export function Footer() {
     <footer className="border-t border-border bg-background/50 backdrop-blur-sm">
       <Container>
         <div className="py-8">
-          <Disclaimer 
-            originalSiteName="professional railway development companies"
-          />
+          <Disclaimer />
         </div>
       </Container>
     </footer>
