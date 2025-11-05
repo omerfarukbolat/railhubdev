@@ -1,7 +1,11 @@
+'use client';
+
 import { Card } from '@/components/ui/Card';
 import { Container } from '@/components/ui/Container';
+import { useTranslations } from 'next-intl';
 
 export default function AboutPage() {
+  const t = useTranslations('about');
   return (
     <div className="relative min-h-screen bg-background">
       {/* Hero Section */}
@@ -12,13 +16,13 @@ export default function AboutPage() {
               <svg className="h-4 w-4" fill="currentColor" viewBox="0 0 20 20">
                 <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clipRule="evenodd" />
               </svg>
-              Since 1994
+              {t('badge')}
             </div>
             <h1 className="text-5xl font-bold tracking-tight text-foreground sm:text-6xl">
-              About RailHubDev
+              {t('title')}
             </h1>
             <p className="mt-6 text-xl leading-relaxed text-muted-foreground">
-              Leading the railway industry with innovation, expertise, and commitment to excellence for three decades.
+              {t('subtitle')}
             </p>
           </div>
         </Container>
@@ -36,11 +40,9 @@ export default function AboutPage() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                   </svg>
                 </div>
-                <h2 className="text-3xl font-bold text-card-foreground">Our Mission</h2>
+                <h2 className="text-3xl font-bold text-card-foreground">{t('mission.title')}</h2>
                 <p className="mt-4 text-lg leading-relaxed text-muted-foreground">
-                  To revolutionize railway infrastructure through innovative engineering solutions,
-                  sustainable practices, and unwavering commitment to safety. We strive to connect
-                  communities and drive economic growth through world-class transportation systems.
+                  {t('mission.description')}
                 </p>
               </div>
             </Card>
@@ -54,11 +56,9 @@ export default function AboutPage() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
                   </svg>
                 </div>
-                <h2 className="text-3xl font-bold text-card-foreground">Our Vision</h2>
+                <h2 className="text-3xl font-bold text-card-foreground">{t('vision.title')}</h2>
                 <p className="mt-4 text-lg leading-relaxed text-muted-foreground">
-                  To be the global leader in railway development, setting industry standards for
-                  quality, innovation, and sustainability. We envision a future where efficient rail
-                  systems transform the way people and goods move across the world.
+                  {t('vision.description')}
                 </p>
               </div>
             </Card>
@@ -72,24 +72,16 @@ export default function AboutPage() {
           <Card className="relative overflow-hidden" hover={false}>
             <div className="absolute left-0 top-0 h-full w-1 bg-primary" />
             <div className="pl-6">
-              <h2 className="text-3xl font-bold text-card-foreground">Our Story</h2>
+              <h2 className="text-3xl font-bold text-card-foreground">{t('story.title')}</h2>
               <div className="mt-8 space-y-6 text-lg leading-relaxed text-muted-foreground">
                 <p className="first-letter:text-5xl first-letter:font-bold first-letter:text-primary">
-                  Founded in 1994, RailHubDev began as a small engineering consultancy with a big
-                  vision. Our founders recognized the critical role that railway infrastructure
-                  would play in the 21st century and set out to create a company that could meet
-                  those challenges head-on.
+                  {t('story.paragraph1')}
                 </p>
                 <p>
-                  Over the past three decades, we've grown from a team of five passionate engineers
-                  to a global organization of over 500 professionals. We've completed more than 150
-                  major projects across 25 countries, from high-speed rail corridors to urban metro
-                  systems.
+                  {t('story.paragraph2')}
                 </p>
                 <p>
-                  Today, RailHubDev stands at the forefront of railway innovation, combining
-                  traditional engineering excellence with cutting-edge technology. We're proud of
-                  our heritage and excited about the future of sustainable transportation.
+                  {t('story.paragraph3')}
                 </p>
               </div>
             </div>
@@ -102,24 +94,24 @@ export default function AboutPage() {
         <Container>
           <div className="mx-auto mb-12 max-w-2xl text-center">
             <h2 className="text-3xl font-bold text-foreground sm:text-4xl">
-              Our Core Values
+              {t('values.title')}
             </h2>
             <p className="mt-4 text-lg text-muted-foreground">
-              The principles that guide everything we do
+              {t('values.subtitle')}
             </p>
           </div>
 
           <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {[
-              { title: 'Excellence', icon: '⭐', color: 'from-yellow-500 to-orange-500' },
-              { title: 'Innovation', icon: '💡', color: 'from-blue-500 to-purple-500' },
-              { title: 'Integrity', icon: '🤝', color: 'from-green-500 to-teal-500' },
-              { title: 'Safety', icon: '🛡️', color: 'from-red-500 to-pink-500' },
+              { key: 'excellence', icon: '⭐', color: 'from-yellow-500 to-orange-500' },
+              { key: 'innovation', icon: '💡', color: 'from-blue-500 to-purple-500' },
+              { key: 'integrity', icon: '🤝', color: 'from-green-500 to-teal-500' },
+              { key: 'safety', icon: '🛡️', color: 'from-red-500 to-pink-500' },
             ].map((value) => (
-              <Card key={value.title} className="text-center">
+              <Card key={value.key} className="text-center">
                 <div className="mb-4 text-5xl">{value.icon}</div>
                 <h3 className={`bg-gradient-to-r ${value.color} bg-clip-text text-xl font-bold text-transparent`}>
-                  {value.title}
+                  {t(`values.${value.key}`)}
                 </h3>
               </Card>
             ))}

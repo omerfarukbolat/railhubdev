@@ -2,8 +2,19 @@
 
 import { Provider } from 'react-redux';
 import { store } from '@/lib/store';
+import { NextIntlClientProvider } from 'next-intl';
 import { ReactNode } from 'react';
 
-export function Providers({ children }: { children: ReactNode }) {
-  return <Provider store={store}>{children}</Provider>;
+interface ProvidersProps {
+  children: ReactNode;
+  locale: string;
+  messages: any;
+}
+
+export function Providers({ children, locale, messages }: ProvidersProps) {
+  return (
+    <NextIntlClientProvider locale={locale} messages={messages} timeZone="Europe/Istanbul">
+      <Provider store={store}>{children}</Provider>
+    </NextIntlClientProvider>
+  );
 }

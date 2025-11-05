@@ -1,0 +1,212 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "expertise": "Expertise",
+    "projects": "Projects",
+    "stories": "Stories"
+  },
+  "languages": {
+    "en": "English",
+    "tr": "Turkish"
+  },
+  "home": {
+    "badge": "Trusted by 25+ Countries Worldwide",
+    "title": "Railway Development",
+    "titleHighlight": "Excellence",
+    "description": "Building the future of railway infrastructure with cutting-edge technology and expertise. Innovative solutions for modern transportation challenges.",
+    "viewProjects": "View Projects",
+    "learnMore": "Learn More",
+    "stats": {
+      "projectsCompleted": "Projects Completed",
+      "countriesServed": "Countries Served",
+      "teamMembers": "Team Members",
+      "experience": "Experience"
+    },
+    "whyChoose": {
+      "title": "Why Choose RailHubDev?",
+      "subtitle": "Comprehensive railway solutions backed by three decades of excellence",
+      "fastDelivery": {
+        "title": "Fast Delivery",
+        "description": "Rapid project execution with industry-leading timelines and quality assurance."
+      },
+      "safetyFirst": {
+        "title": "Safety First",
+        "description": "Uncompromising commitment to safety standards and regulatory compliance."
+      },
+      "innovation": {
+        "title": "Innovation",
+        "description": "Cutting-edge technology and innovative solutions for modern challenges."
+      }
+    },
+    "cta": {
+      "title": "Ready to start your project?",
+      "description": "Let's discuss how we can help bring your railway vision to life.",
+      "button": "Get in Touch"
+    }
+  },
+  "about": {
+    "badge": "Since 1994",
+    "title": "About RailHubDev",
+    "subtitle": "Leading the railway industry with innovation, expertise, and commitment to excellence for three decades.",
+    "mission": {
+      "title": "Our Mission",
+      "description": "To revolutionize railway infrastructure through innovative engineering solutions, sustainable practices, and unwavering commitment to safety. We strive to connect communities and drive economic growth through world-class transportation systems."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "description": "To be the global leader in railway development, setting industry standards for quality, innovation, and sustainability. We envision a future where efficient rail systems transform the way people and goods move across the world."
+    },
+    "story": {
+      "title": "Our Story",
+      "paragraph1": "Founded in 1994, RailHubDev began as a small engineering consultancy with a big vision. Our founders recognized the critical role that railway infrastructure would play in the 21st century and set out to create a company that could meet those challenges head-on.",
+      "paragraph2": "Over the past three decades, we've grown from a team of five passionate engineers to a global organization of over 500 professionals. We've completed more than 150 major projects across 25 countries, from high-speed rail corridors to urban metro systems.",
+      "paragraph3": "Today, RailHubDev stands at the forefront of railway innovation, combining traditional engineering excellence with cutting-edge technology. We're proud of our heritage and excited about the future of sustainable transportation."
+    },
+    "values": {
+      "title": "Our Core Values",
+      "subtitle": "The principles that guide everything we do",
+      "excellence": "Excellence",
+      "innovation": "Innovation",
+      "integrity": "Integrity",
+      "safety": "Safety"
+    }
+  },
+  "expertise": {
+    "badge": "Full-Service Solutions",
+    "title": "Our Expertise",
+    "subtitle": "Comprehensive railway solutions backed by decades of experience and technical excellence.",
+    "areas": {
+      "highSpeedRail": {
+        "title": "High-Speed Rail",
+        "description": "Design and construction of high-speed railway corridors with speeds up to 350 km/h.",
+        "stats": "50+ Projects"
+      },
+      "urbanMetro": {
+        "title": "Urban Metro Systems",
+        "description": "Complete metro solutions including tunneling, stations, and signaling systems.",
+        "stats": "30+ Metro Lines"
+      },
+      "freight": {
+        "title": "Freight Infrastructure",
+        "description": "Heavy-duty freight corridors and logistics hubs for efficient cargo transport.",
+        "stats": "40+ Hubs"
+      },
+      "signalControl": {
+        "title": "Signal & Control",
+        "description": "Advanced signaling systems and traffic control centers for safe operations.",
+        "stats": "100+ Systems"
+      },
+      "electrification": {
+        "title": "Electrification",
+        "description": "Railway electrification systems and sustainable energy solutions.",
+        "stats": "80+ Networks"
+      },
+      "maintenance": {
+        "title": "Maintenance & Consulting",
+        "description": "Comprehensive maintenance services and expert consulting for railway operations.",
+        "stats": "200+ Contracts"
+      }
+    }
+  },
+  "projects": {
+    "badge": "150+ Successful Deliveries",
+    "title": "Our Projects",
+    "subtitle": "Delivering world-class railway infrastructure projects across the globe.",
+    "status": {
+      "completed": "Completed",
+      "inProgress": "In Progress"
+    },
+    "learnMore": "Learn More",
+    "list": {
+      "istanbul": {
+        "title": "Istanbul High-Speed Rail",
+        "location": "Istanbul, Turkey",
+        "description": "Modern high-speed rail corridor connecting major districts with 350 km/h capability."
+      },
+      "singapore": {
+        "title": "Singapore MRT Extension",
+        "location": "Singapore",
+        "description": "Urban metro extension with 8 new stations and advanced signaling system."
+      },
+      "berlin": {
+        "title": "Berlin Freight Hub",
+        "location": "Berlin, Germany",
+        "description": "State-of-the-art logistics center for European freight distribution."
+      },
+      "tokyo": {
+        "title": "Tokyo Station Upgrade",
+        "location": "Tokyo, Japan",
+        "description": "Major station renovation with improved passenger flow and accessibility."
+      },
+      "dubai": {
+        "title": "Dubai Metro Line 3",
+        "location": "Dubai, UAE",
+        "description": "New automated metro line serving Dubai Expo district."
+      },
+      "london": {
+        "title": "London Crossrail Integration",
+        "location": "London, UK",
+        "description": "Signal system integration for the Elizabeth Line project."
+      }
+    }
+  },
+  "stories": {
+    "badge": "Latest Insights & Updates",
+    "title": "Stories & Insights",
+    "subtitle": "Discover the stories behind our projects and gain insights into the railway industry.",
+    "readStory": "Read Story",
+    "loadMore": "Load More Stories",
+    "categories": {
+      "caseStudy": "Case Study",
+      "technology": "Technology",
+      "sustainability": "Sustainability",
+      "safety": "Safety",
+      "industryInsights": "Industry Insights",
+      "careers": "Careers"
+    },
+    "list": {
+      "istanbul": {
+        "title": "Connecting Communities: The Istanbul Story",
+        "date": "November 2023",
+        "excerpt": "How our high-speed rail project transformed transportation in Istanbul, connecting millions of commuters with unprecedented efficiency.",
+        "readTime": "5 min read"
+      },
+      "innovation": {
+        "title": "Innovation in Urban Transit",
+        "date": "October 2023",
+        "excerpt": "Exploring the cutting-edge technology behind our Singapore MRT extension and its impact on urban mobility.",
+        "readTime": "7 min read"
+      },
+      "sustainable": {
+        "title": "Sustainable Railway Development",
+        "date": "September 2023",
+        "excerpt": "Our commitment to environmental sustainability and how we're reducing the carbon footprint of railway infrastructure.",
+        "readTime": "6 min read"
+      },
+      "safetyFirst": {
+        "title": "Safety First: A Culture of Excellence",
+        "date": "August 2023",
+        "excerpt": "Behind the scenes look at our safety protocols and the team dedicated to ensuring zero-incident projects.",
+        "readTime": "4 min read"
+      },
+      "future": {
+        "title": "The Future of High-Speed Rail",
+        "date": "July 2023",
+        "excerpt": "Industry insights on emerging technologies and what the next generation of high-speed rail will look like.",
+        "readTime": "8 min read"
+      },
+      "careers": {
+        "title": "Building Careers in Railway Engineering",
+        "date": "June 2023",
+        "excerpt": "Meet our team members and learn about the exciting career opportunities in modern railway development.",
+        "readTime": "5 min read"
+      }
+    }
+  },
+  "footer": {
+    "disclaimer": "Disclaimer: This website is an unofficial, non-commercial educational demo inspired by real-world railway management systems.",
+    "rights": "All original design rights belong to their respective owners."
+  }
+}
+

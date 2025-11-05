@@ -1,0 +1,212 @@
+{
+  "nav": {
+    "home": "Ana Sayfa",
+    "about": "Hakkımızda",
+    "expertise": "Uzmanlık",
+    "projects": "Projeler",
+    "stories": "Hikayeler"
+  },
+  "languages": {
+    "en": "İngilizce",
+    "tr": "Türkçe"
+  },
+  "home": {
+    "badge": "Dünya Çapında 25+ Ülke Tarafından Güveniliyor",
+    "title": "Demiryolu Geliştirme",
+    "titleHighlight": "Mükemmelliği",
+    "description": "Gelecek nesil teknoloji ve uzmanlıkla demiryolu altyapısının geleceğini inşa ediyoruz. Modern ulaşım zorlukları için yenilikçi çözümler.",
+    "viewProjects": "Projeleri Görüntüle",
+    "learnMore": "Daha Fazla Bilgi",
+    "stats": {
+      "projectsCompleted": "Tamamlanan Proje",
+      "countriesServed": "Hizmet Verilen Ülke",
+      "teamMembers": "Ekip Üyesi",
+      "experience": "Deneyim"
+    },
+    "whyChoose": {
+      "title": "Neden RailHubDev?",
+      "subtitle": "Otuz yıllık mükemmellikle desteklenen kapsamlı demiryolu çözümleri",
+      "fastDelivery": {
+        "title": "Hızlı Teslimat",
+        "description": "Sektör lideri süreler ve kalite güvencesi ile hızlı proje uygulaması."
+      },
+      "safetyFirst": {
+        "title": "Güvenlik Önceliğimiz",
+        "description": "Güvenlik standartları ve düzenleyici uyumluluk konusunda taviz vermez bağlılık."
+      },
+      "innovation": {
+        "title": "İnovasyon",
+        "description": "Modern zorluklar için son teknoloji ve yenilikçi çözümler."
+      }
+    },
+    "cta": {
+      "title": "Projenize başlamaya hazır mısınız?",
+      "description": "Demiryolu vizyonunuzu hayata geçirmenize nasıl yardımcı olabileceğimizi konuşalım.",
+      "button": "İletişime Geçin"
+    }
+  },
+  "about": {
+    "badge": "1994'ten Beri",
+    "title": "RailHubDev Hakkında",
+    "subtitle": "Otuz yıldır inovasyon, uzmanlık ve mükemmellik taahhüdü ile demiryolu sektörüne öncülük ediyoruz.",
+    "mission": {
+      "title": "Misyonumuz",
+      "description": "Yenilikçi mühendislik çözümleri, sürdürülebilir uygulamalar ve güvenlik konusundaki sarsılmaz taahhüdümüzle demiryolu altyapısında devrim yaratmak. Toplulukları birleştirmeyi ve dünya standartlarında ulaşım sistemleri aracılığıyla ekonomik büyümeyi teşvik etmeyi hedefliyoruz."
+    },
+    "vision": {
+      "title": "Vizyonumuz",
+      "description": "Kalite, inovasyon ve sürdürülebilirlik konusunda sektör standartları belirleyerek, demiryolu geliştirmede küresel lider olmak. Verimli demiryolu sistemlerinin insanların ve malların dünya çapında hareket etme şeklini dönüştürdüğü bir gelecek görüyoruz."
+    },
+    "story": {
+      "title": "Hikayemiz",
+      "paragraph1": "1994 yılında kurulan RailHubDev, büyük bir vizyona sahip küçük bir mühendislik danışmanlık şirketi olarak başladı. Kurucularımız, demiryolu altyapısının 21. yüzyılda oynayacağı kritik rolü fark ettiler ve bu zorluklarla başa çıkabilecek bir şirket yaratmaya karar verdiler.",
+      "paragraph2": "Geçtiğimiz otuz yıl içinde, beş tutkulu mühendisden oluşan bir ekipten 500'den fazla profesyonelden oluşan küresel bir organizasyona dönüştük. Yüksek hızlı demiryolu koridorlarından şehir içi metro sistemlerine kadar 25 ülkede 150'den fazla büyük projeyi tamamladık.",
+      "paragraph3": "Bugün RailHubDev, geleneksel mühendislik mükemmelliğini en son teknoloji ile birleştirerek demiryolu inovasyonunun ön saflarında yer alıyor. Mirasımızla gurur duyuyor ve sürdürülebilir ulaşımın geleceği konusunda heyecanlıyız."
+    },
+    "values": {
+      "title": "Temel Değerlerimiz",
+      "subtitle": "Yaptığımız her şeye rehberlik eden ilkeler",
+      "excellence": "Mükemmellik",
+      "innovation": "İnovasyon",
+      "integrity": "Dürüstlük",
+      "safety": "Güvenlik"
+    }
+  },
+  "expertise": {
+    "badge": "Tam Hizmet Çözümleri",
+    "title": "Uzmanlık Alanlarımız",
+    "subtitle": "On yıllarca deneyim ve teknik mükemmellikle desteklenen kapsamlı demiryolu çözümleri.",
+    "areas": {
+      "highSpeedRail": {
+        "title": "Yüksek Hızlı Demiryolu",
+        "description": "350 km/s hıza kadar yüksek hızlı demiryolu koridorlarının tasarımı ve inşası.",
+        "stats": "50+ Proje"
+      },
+      "urbanMetro": {
+        "title": "Şehir İçi Metro Sistemleri",
+        "description": "Tünel açma, istasyonlar ve sinyalizasyon sistemleri dahil eksiksiz metro çözümleri.",
+        "stats": "30+ Metro Hattı"
+      },
+      "freight": {
+        "title": "Yük Altyapısı",
+        "description": "Verimli kargo taşımacılığı için ağır hizmet tipi yük koridorları ve lojistik merkezleri.",
+        "stats": "40+ Merkez"
+      },
+      "signalControl": {
+        "title": "Sinyal ve Kontrol",
+        "description": "Güvenli operasyonlar için gelişmiş sinyalizasyon sistemleri ve trafik kontrol merkezleri.",
+        "stats": "100+ Sistem"
+      },
+      "electrification": {
+        "title": "Elektrifikasyon",
+        "description": "Demiryolu elektrifikasyon sistemleri ve sürdürülebilir enerji çözümleri.",
+        "stats": "80+ Ağ"
+      },
+      "maintenance": {
+        "title": "Bakım ve Danışmanlık",
+        "description": "Demiryolu operasyonları için kapsamlı bakım hizmetleri ve uzman danışmanlık.",
+        "stats": "200+ Sözleşme"
+      }
+    }
+  },
+  "projects": {
+    "badge": "150+ Başarılı Teslimat",
+    "title": "Projelerimiz",
+    "subtitle": "Dünya çapında birinci sınıf demiryolu altyapı projeleri sunuyoruz.",
+    "status": {
+      "completed": "Tamamlandı",
+      "inProgress": "Devam Ediyor"
+    },
+    "learnMore": "Daha Fazla Bilgi",
+    "list": {
+      "istanbul": {
+        "title": "İstanbul Yüksek Hızlı Demiryolu",
+        "location": "İstanbul, Türkiye",
+        "description": "350 km/s kapasiteyle ana bölgeleri birleştiren modern yüksek hızlı demiryolu koridoru."
+      },
+      "singapore": {
+        "title": "Singapur MRT Genişletmesi",
+        "location": "Singapur",
+        "description": "8 yeni istasyon ve gelişmiş sinyalizasyon sistemi ile kentsel metro genişletmesi."
+      },
+      "berlin": {
+        "title": "Berlin Yük Merkezi",
+        "location": "Berlin, Almanya",
+        "description": "Avrupa yük dağıtımı için son teknoloji lojistik merkezi."
+      },
+      "tokyo": {
+        "title": "Tokyo İstasyon Yükseltmesi",
+        "location": "Tokyo, Japonya",
+        "description": "İyileştirilmiş yolcu akışı ve erişilebilirlik ile büyük istasyon yenilemesi."
+      },
+      "dubai": {
+        "title": "Dubai Metro Hat 3",
+        "location": "Dubai, BAE",
+        "description": "Dubai Expo bölgesine hizmet veren yeni otomatik metro hattı."
+      },
+      "london": {
+        "title": "Londra Crossrail Entegrasyonu",
+        "location": "Londra, İngiltere",
+        "description": "Elizabeth Line projesi için sinyal sistemi entegrasyonu."
+      }
+    }
+  },
+  "stories": {
+    "badge": "Son Görüşler ve Güncellemeler",
+    "title": "Hikayeler ve Görüşler",
+    "subtitle": "Projelerimizin arkasındaki hikayeleri keşfedin ve demiryolu endüstrisi hakkında fikir edinin.",
+    "readStory": "Hikayeyi Oku",
+    "loadMore": "Daha Fazla Hikaye Yükle",
+    "categories": {
+      "caseStudy": "Vaka Çalışması",
+      "technology": "Teknoloji",
+      "sustainability": "Sürdürülebilirlik",
+      "safety": "Güvenlik",
+      "industryInsights": "Sektör Görüşleri",
+      "careers": "Kariyer"
+    },
+    "list": {
+      "istanbul": {
+        "title": "Toplulukları Birleştirmek: İstanbul Hikayesi",
+        "date": "Kasım 2023",
+        "excerpt": "Yüksek hızlı demiryolu projemizin İstanbul'da ulaşımı nasıl dönüştürdüğü ve milyonlarca yolcuyu benzeri görülmemiş verimlilikle nasıl bağladığı.",
+        "readTime": "5 dk okuma"
+      },
+      "innovation": {
+        "title": "Kentsel Ulaşımda İnovasyon",
+        "date": "Ekim 2023",
+        "excerpt": "Singapur MRT genişletmemizin arkasındaki en son teknoloji ve kentsel mobilitedeki etkisi.",
+        "readTime": "7 dk okuma"
+      },
+      "sustainable": {
+        "title": "Sürdürülebilir Demiryolu Geliştirme",
+        "date": "Eylül 2023",
+        "excerpt": "Çevresel sürdürülebilirlik taahhüdümüz ve demiryolu altyapısının karbon ayak izini nasıl azalttığımız.",
+        "readTime": "6 dk okuma"
+      },
+      "safetyFirst": {
+        "title": "Güvenlik Önce: Mükemmellik Kültürü",
+        "date": "Ağustos 2023",
+        "excerpt": "Güvenlik protokollerimizin perde arkası ve sıfır olaylı projeleri sağlamaya adanmış ekibimiz.",
+        "readTime": "4 dk okuma"
+      },
+      "future": {
+        "title": "Yüksek Hızlı Demiryolunun Geleceği",
+        "date": "Temmuz 2023",
+        "excerpt": "Gelişmekte olan teknolojiler ve yeni nesil yüksek hızlı demiryolunun nasıl olacağı hakkında sektör görüşleri.",
+        "readTime": "8 dk okuma"
+      },
+      "careers": {
+        "title": "Demiryolu Mühendisliğinde Kariyer İnşa Etmek",
+        "date": "Haziran 2023",
+        "excerpt": "Ekip üyelerimizle tanışın ve modern demiryolu geliştirmesinde heyecan verici kariyer fırsatları hakkında bilgi edinin.",
+        "readTime": "5 dk okuma"
+      }
+    }
+  },
+  "footer": {
+    "disclaimer": "Feragatname: Bu web sitesi, gerçek dünya demiryolu yönetim sistemlerinden esinlenilmiş resmi olmayan, ticari olmayan bir eğitim demosu.",
+    "rights": "Tüm orijinal tasarım hakları ilgili sahiplerine aittir."
+  }
+}
+
