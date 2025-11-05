@@ -7,6 +7,7 @@ import { useLocale, useTranslations } from 'next-intl';
 import { Button } from '@/components/ui/Button';
 import { cn } from '@/lib/utils';
 import { type Locale } from '@/i18n/config';
+import { Sidebar } from './Sidebar';
 
 const links = [
   { href: '/', key: 'home' },
@@ -23,6 +24,7 @@ export function Navbar() {
   const tLang = useTranslations('languages');
   const [theme, setTheme] = useState<'light' | 'dark'>('light');
   const [isLangDropdownOpen, setIsLangDropdownOpen] = useState(false);
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -68,6 +70,19 @@ export function Navbar() {
     };
   }, [isLangDropdownOpen]);
 
+  // Prevent body scroll when sidebar is open
+  useEffect(() => {
+    if (isSidebarOpen) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = 'unset';
+    }
+
+    return () => {
+      document.body.style.overflow = 'unset';
+    };
+  }, [isSidebarOpen]);
+
   const toggleTheme = () => {
     const newTheme = theme === 'light' ? 'dark' : 'light';
     setTheme(newTheme);
@@ -91,23 +106,42 @@ export function Navbar() {
   };
 
   return (
-    <nav className="sticky top-0 z-50 border-b border-border bg-background/80 backdrop-blur-xl supports-[backdrop-filter]:bg-background/70 shadow-sm">
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="flex h-16 items-center justify-between">
-          {/* Logo */}
-          <Link href="/" className="group flex items-center gap-3 transition-opacity hover:opacity-80">
-            <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-primary shadow-lg transition-transform group-hover:scale-105">
-              <svg className="h-6 w-6 text-primary-foreground" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
-              </svg>
-            </div>
-            <span className="text-xl font-bold text-foreground">
-              RailHubDev
-            </span>
-          </Link>
+    <>
+      {/* Sidebar for Mobile */}
+      <Sidebar isOpen={isSidebarOpen} onClose={() => setIsSidebarOpen(false)} />
 
-          {/* Nav Links */}
-          <div className="hidden items-center gap-1 md:flex">
+      {/* Navbar */}
+      <nav className="sticky top-0 z-50 border-b border-border bg-background/80 backdrop-blur-xl supports-[backdrop-filter]:bg-background/70 shadow-sm">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="flex h-16 items-center justify-between gap-4">
+            {/* Left Side - Hamburger (Mobile) or Logo (Desktop) */}
+            <div className="flex items-center gap-4">
+              {/* Hamburger Menu Button - Mobile Only */}
+              <button
+                onClick={() => setIsSidebarOpen(true)}
+                className="rounded-lg p-2 text-foreground transition-colors hover:bg-secondary lg:hidden"
+                aria-label="Open menu"
+              >
+                <svg className="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+              </button>
+
+              {/* Logo - Desktop Only */}
+              <Link href="/" className="group hidden items-center gap-3 transition-opacity hover:opacity-80 lg:flex">
+                <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-primary shadow-lg transition-transform group-hover:scale-105">
+                  <svg className="h-6 w-6 text-primary-foreground" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+                  </svg>
+                </div>
+                <span className="text-xl font-bold text-foreground">
+                  RailHubDev
+                </span>
+              </Link>
+            </div>
+
+          {/* Nav Links - Desktop Only */}
+          <div className="hidden items-center gap-1 lg:flex">
             {links.map((link) => (
               <Link
                 key={link.href}
@@ -206,5 +240,6 @@ export function Navbar() {
         </div>
       </div>
     </nav>
+    </>
   );
 }
