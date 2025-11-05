@@ -65,7 +65,7 @@ const expertiseAreas = [
 export default function ExpertisePage() {
   const t = useTranslations('expertise');
   return (
-    <div className="relative min-h-screen bg-background">
+    <div className="page-transition relative min-h-screen bg-background">
       {/* Hero Section */}
       <section className="relative py-20 sm:py-28">
         <Container>

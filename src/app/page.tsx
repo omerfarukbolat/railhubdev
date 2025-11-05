@@ -9,7 +9,7 @@ import { useTranslations } from 'next-intl';
 export default function HomePage() {
   const t = useTranslations('home');
   return (
-    <div className="relative overflow-hidden bg-background">
+    <div className="page-transition relative overflow-hidden bg-background">
       {/* Background Gradient */}
       <div className="absolute inset-0 -z-10 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-primary-100/20 via-background to-background" />
 
