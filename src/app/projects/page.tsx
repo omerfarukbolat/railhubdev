@@ -88,11 +88,18 @@ export default function ProjectsPage() {
 
                 {/* Status & Year */}
                 <div className="mb-4 flex items-center justify-between">
-                  <span className={`inline-flex items-center gap-1.5 rounded-full px-3 py-1 text-xs font-semibold ${
-                    project.status === 'Completed'
-                      ? 'bg-green-100 text-green-800 dark:bg-green-900/30 dark:text-green-400'
-                      : 'bg-blue-100 text-blue-800 dark:bg-blue-900/30 dark:text-blue-400'
-                  }`}>
+                  <span 
+                    className={`inline-flex items-center gap-1.5 rounded-full px-3 py-1 text-xs font-semibold ${
+                      project.status === 'Completed'
+                        ? 'text-green-700 dark:bg-green-900/30 dark:text-green-400'
+                        : 'text-blue-700 dark:bg-blue-900/30 dark:text-blue-400'
+                    }`}
+                    style={{
+                      backgroundColor: project.status === 'Completed' 
+                        ? 'light-dark(color-mix(in oklab, rgb(74 222 128) 20%, transparent), color-mix(in oklab, rgb(20 83 45) 30%, transparent))' 
+                        : 'light-dark(color-mix(in oklab, rgb(96 165 250) 20%, transparent), color-mix(in oklab, rgb(30 58 138) 30%, transparent))'
+                    }}
+                  >
                     <span className={`h-1.5 w-1.5 rounded-full ${
                       project.status === 'Completed' ? 'bg-green-600 dark:bg-green-400' : 'bg-blue-600 dark:bg-blue-400'
                     }`} />
